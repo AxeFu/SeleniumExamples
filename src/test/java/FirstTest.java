@@ -3,15 +3,17 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.bidi.module.Input;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class BrowserTest {
+public class FirstTest {
 
     @Test
     public void run() {
+        //Windows only
+        //System.setProperty("web.driver.chrome.driver", "path");
+
         WebDriver driver = new ChromeDriver();
 
         driver.get("https://www.selenium.dev/selenium/web/web-form.html");
