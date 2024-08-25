@@ -22,7 +22,7 @@ public class FirstTest {
     @Test
     public void seleniumIntroduction() {
         //Windows only
-        //System.setProperty("web.driver.chrome.driver", "path");
+        //System.setProperty("webdriver.chrome.driver", "path");
 
         driver.get("https://www.selenium.dev/selenium/web/web-form.html");
 

@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86368252-8060-4ba3-89cd-928f5668e544" name="Changes" comment="added Windows only config comment">
+    <list default="true" id="86368252-8060-4ba3-89cd-928f5668e544" name="Changes" comment="example Waiting Strategies">
+      <change afterPath="$PROJECT_DIR$/src/test/java/GoogleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +24,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -44,6 +48,10 @@
     "JUnit.FirstTest.WaitingStrategies.executor": "Run",
     "JUnit.FirstTest.run.executor": "Run",
     "JUnit.FirstTest.seleniumIntroduction.executor": "Run",
+    "JUnit.GoogleTest.run.executor": "Run",
+    "JUnit.GoogleTest.run2.executor": "Run",
+    "JUnit.GoogleTest.run3.executor": "Run",
+    "JUnit.java in SeleniumExamples.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
@@ -52,42 +60,62 @@
     "project.structure.side.proportion": "0.29438823"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.FirstTest.seleniumIntroduction">
-    <configuration name="FirstTest.WaitingStrategies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GoogleTest.run4">
+    <configuration name="GoogleTest.run" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumExamples" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="WaitingStrategies" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstTest.run" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumExamples" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="MAIN_CLASS_NAME" value="GoogleTest" />
       <option name="METHOD_NAME" value="run" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest.seleniumIntroduction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GoogleTest.run2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumExamples" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="seleniumIntroduction" />
+      <option name="MAIN_CLASS_NAME" value="GoogleTest" />
+      <option name="METHOD_NAME" value="run2" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoogleTest.run3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumExamples" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GoogleTest" />
+      <option name="METHOD_NAME" value="run3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoogleTest.run4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumExamples" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GoogleTest" />
+      <option name="METHOD_NAME" value="run4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java in SeleniumExamples" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumExamples" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FirstTest.seleniumIntroduction" />
-        <item itemvalue="JUnit.FirstTest.WaitingStrategies" />
-        <item itemvalue="JUnit.FirstTest.run" />
+        <item itemvalue="JUnit.GoogleTest.run4" />
+        <item itemvalue="JUnit.GoogleTest.run3" />
+        <item itemvalue="JUnit.GoogleTest.run2" />
+        <item itemvalue="JUnit.GoogleTest.run" />
+        <item itemvalue="JUnit.java in SeleniumExamples" />
       </list>
     </recent_temporary>
   </component>
@@ -134,13 +162,22 @@
       <option name="project" value="LOCAL" />
       <updated>1724264523127</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="example Waiting Strategies">
+      <option name="closed" value="true" />
+      <created>1724439229518</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724439229518</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="First test" />
     <MESSAGE value="added Windows only config comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Windows only config comment" />
+    <MESSAGE value="example Waiting Strategies" />
+    <option name="LAST_COMMIT_MESSAGE" value="example Waiting Strategies" />
   </component>
 </project>
